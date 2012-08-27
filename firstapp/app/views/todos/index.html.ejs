@@ -1,0 +1,15 @@
+<div class="hero-unit">
+	<h2> To Do List<h2>
+	<%- linkTo('Create a new To Do',addTodoPath,{class:'btn pull-right'}) %>
+
+</div>
+
+<% if(todos && todos.length){ %>
+	<%for (var i in todos){ %>
+	<div class="row todo-item">
+		<div class="span8">
+			<h3><%- todos[i].title %> </h3>
+		</div>
+	</div>
+	<% } %>
+<% } %>
