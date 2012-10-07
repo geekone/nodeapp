@@ -2,4 +2,6 @@ nodeapp
 =======
 geddy learn
 
-my private node app
+todo_app clone geddy demo
+
+fristapp  my private geddy node app
